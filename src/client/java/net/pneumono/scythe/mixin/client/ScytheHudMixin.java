@@ -19,7 +19,7 @@ import java.util.Objects;
 @Mixin(InGameHud.class)
 @SuppressWarnings("unused")
 public abstract class ScytheHudMixin {
-    private static final Identifier HUD_TEXTURES = new Identifier(Scythe.MOD_ID, "textures/gui/hud.png");
+    private static final Identifier SCYTHE_HUD_TEXTURES = new Identifier(Scythe.MOD_ID, "textures/gui/hud.png");
 
     @Shadow
     private int scaledWidth;
@@ -43,8 +43,8 @@ public abstract class ScytheHudMixin {
 
             int x = scaledWidth / 2 - 10;
             int y = scaledHeight / 2 - 7 + 12;
-            context.drawTexture(HUD_TEXTURES, x, y, 0, textureHeight, 19, 5);
-            context.drawTexture(HUD_TEXTURES, x, y, 19, textureHeight, width, 5);
+            context.drawTexture(SCYTHE_HUD_TEXTURES, x, y, 0, textureHeight, 19, 5);
+            context.drawTexture(SCYTHE_HUD_TEXTURES, x, y, 19, textureHeight, width, 5);
         }
     }
 }
