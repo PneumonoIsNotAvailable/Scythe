@@ -1,0 +1,14 @@
+{
+    "item.scythe.scythe": "Scythe",
+
+    "enchantment.scythe.reaping": "Reaping",
+    "enchantment.scythe.launching": "Launching",
+    "enchantment.scythe.extinguishing": "Extinguishing",
+    
+    "scythe.advancements.get_scythe.name": "I'm Death, Straight Up!",
+    "scythe.advancements.get_scythe.desc": "Acquire a Scythe",
+    "scythe.advancements.get_launching_scythe.name": "Master of Spinjitzu",
+    "scythe.advancements.get_launching_scythe.desc": "Enchant a Scythe with Launching, allowing you to propel yourself into the air",
+    
+    "subtitles.scythe.item.scythe.swing": "Scythe swings"
+}

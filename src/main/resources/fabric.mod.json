@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "scythe",
+	"version": "${version}",
+	"name": "Scythe",
+	"description": "Adds the Scythe, a Nether equivalent to the Trident",
+	"authors": [
+		"Pneumono_"
+	],
+	"contact": {
+		"sources": "https://github.com/PneumonoIsNotAvailable/Scythe",
+		"issues": "https://github.com/PneumonoIsNotAvailable/Scythe/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/scythe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pneumono.scythe.Scythe"
+		],
+		"client": [
+			"net.pneumono.scythe.ScytheClient"
+		],
+		"fabric-datagen": [
+			"net.pneumono.scythe.ScytheDataGenerator"
+		]
+	},
+	"mixins": [
+		"scythe.mixins.json",
+		{
+			"config": "scythe.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"pneumonocore": ">=1.1.4"
+	}
+}

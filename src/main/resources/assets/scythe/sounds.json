@@ -1,0 +1,9 @@
+{
+    "item_scythe_swing": {
+        "subtitle": "subtitles.scythe.item.scythe.swing",
+        "sounds": [
+            "minecraft:item/trident/throw1",
+            "minecraft:item/trident/throw2"
+        ]
+    }
+}
